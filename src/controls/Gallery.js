@@ -1,8 +1,9 @@
-import pic1 from '../pic/ny.jpg'
-import pic2 from '../pic/pic1.jfif'
-import pic3 from '../pic/ny.jpg'
-import pic4 from '../pic/ny.jpg'
-import pic5 from '../pic/ny.jpg'
+import pic1 from '../pic/image_50419713.JPG'
+import pic2 from '../pic/image_50454273.JPG'
+import pic3 from '../pic/image_67515905.JPG'
+import pic4 from '../pic/image_50419713.JPG'
+import pic5 from '../pic/image_50419713.JPG'
+
 import Card from "./Card";
 import './Galary.css';
 import PictureProps from "../dto/PictureProps";
@@ -12,11 +13,11 @@ import {useState} from "react";
 function Gallery() {
     const [activePicture, setActivePicture] = useState(0);
 
-    let pictureProps1 = new PictureProps(pic1, "concert", "NY 2021", "This concert had place in New York 2021");
-    let pictureProps2 = new PictureProps(pic2, "concert", "some desc1");
-    let pictureProps3 = new PictureProps(pic3, "concert", "some desc1");
-    let pictureProps4 = new PictureProps(pic4, "concert", "some desc1");
-    let pictureProps5 = new PictureProps(pic5, "concert", "some desc1");
+    let pictureProps1 = new PictureProps(pic1, "Beautiful dream", "500$", "This concert had place in New York 2021");
+    let pictureProps2 = new PictureProps(pic2, "Marshmallow roses", "500$");
+    let pictureProps3 = new PictureProps(pic3, "Red Apple", "500$");
+    let pictureProps4 = new PictureProps(pic4, "concert", "500$");
+    let pictureProps5 = new PictureProps(pic5, "concert", "500$");
 
     let pictures = [pictureProps1, pictureProps2, pictureProps3, pictureProps4, pictureProps5];
     let pictureItems1 = [];
