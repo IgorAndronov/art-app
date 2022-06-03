@@ -1,0 +1,6 @@
+/*apply for size less 990px*/
+@media (max-width:990px) {
+    .row-info{
+        display: none;
+    }
+}

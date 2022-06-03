@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json.schemastore.org/install",
+  "resources": {
+    "body": [
+      {
+        "type": "style",
+        "src": "./static/css/main.073c9b0a.css"
+      },
+      {
+        "type": "script",
+        "src": "./static/css/main.1b2787ae.js"
+      },
+      {
+        "type": "script",
+        "src": "./static/css/787.4850b403.chunk.js"
+      }
+    ]
+  },
+   "preview": {
+    "handlers": [
+      {
+        "options": ["_default"],
+        "execute": "INSTALL_SCOPE.setOptions(INSTALL_OPTIONS)"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "location": {
+        "title": "Message Location",
+        "description": "Where should the message appear?",
+        "order": 0,
+        "type": "object",
+        "format": "element",
+        "default": {
+          "selector": "body",
+          "method": "prepend"
+        }
+      },
+      "message": {
+        "title": "Message",
+        "description": "A short example message.",
+        "type": "string",
+        "format": "richtext",
+        "order": 1,
+        "default": "<h1>Welcome to Cloudflare Apps!</h1><p>Download this app every time you want to make a new project.</p><p>This app renders a message to the user's website and sets a TXT DNS record with a value of 'Hello DNS'."
+      }
+    }
+  }
+}
