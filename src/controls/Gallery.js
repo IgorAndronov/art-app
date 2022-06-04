@@ -1,8 +1,11 @@
 import pic1 from '../pic/image_50419713.JPG'
 import pic2 from '../pic/image_50454273.JPG'
 import pic3 from '../pic/image_67515905.JPG'
-import pic4 from '../pic/image_50419713.JPG'
-import pic5 from '../pic/image_50419713.JPG'
+import pic4 from '../pic/image_50405377.JPG'
+import pic5 from '../pic/image_50406657.JPG'
+import pic6 from '../pic/image_67185409.JPG'
+import pic7 from '../pic/image_67188737.JPG'
+import pic8 from '../pic/image_50446593.JPG'
 
 import Card from "./Card";
 import './Galary.css';
@@ -16,14 +19,16 @@ function Gallery() {
     let pictureProps1 = new PictureProps(pic1, "Beautiful dream", "500$", "This concert had place in New York 2021");
     let pictureProps2 = new PictureProps(pic2, "Marshmallow roses", "500$");
     let pictureProps3 = new PictureProps(pic3, "Red Apple", "500$");
-    let pictureProps4 = new PictureProps(pic4, "concert", "500$");
-    let pictureProps5 = new PictureProps(pic5, "concert", "500$");
+    let pictureProps4 = new PictureProps(pic4, "For You", "500$");
+    let pictureProps5 = new PictureProps(pic5, "Wind", "500$");
+    let pictureProps6 = new PictureProps(pic6, "Pineapple pear ", "500$");
+    let pictureProps7 = new PictureProps(pic7, "Must have", "500$");
+    let pictureProps8 = new PictureProps(pic8, "Find Yourself ", "500$");
 
-    let pictures = [pictureProps1, pictureProps2, pictureProps3, pictureProps4, pictureProps5];
+    let pictures = [pictureProps1, pictureProps2, pictureProps3, pictureProps4, pictureProps5, pictureProps6, pictureProps7, pictureProps8];
     let pictureItems1 = [];
     let pictureItems2 = [];
     let pictureItems3 = [];
-
 
     for (let i = 0; i < pictures.length; i++) {
         if ((i + 1) % 3 == 1) {
