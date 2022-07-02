@@ -37,8 +37,8 @@ function Gallery() {
     let pictureProps13 = new PictureProps(pic13, "Night Roses", "500$");
     let pictureProps14 = new PictureProps(pic14, "Lavender", "500$");
 
-    let pictures = [pictureProps1, pictureProps2, pictureProps3, pictureProps4, pictureProps5, pictureProps6, pictureProps7, pictureProps8,
-        pictureProps9, pictureProps10, pictureProps11, pictureProps12, pictureProps13, pictureProps14];
+    let pictures = [pictureProps1, pictureProps2, pictureProps3, pictureProps4, pictureProps5, pictureProps6, pictureProps12, pictureProps8,
+        pictureProps9, pictureProps10, pictureProps11, pictureProps7, pictureProps13, pictureProps14];
     let pictureItems1 = [];
     let pictureItems2 = [];
     let pictureItems3 = [];
