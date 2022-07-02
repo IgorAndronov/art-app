@@ -38,3 +38,9 @@ Build:
 2. wrangler publish
 
 
+Rdux:
+1. npm install react-redux
+References:
+https://redux.js.org/tutorials/fundamentals/part-5-ui-react
+
+

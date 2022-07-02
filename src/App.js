@@ -6,7 +6,7 @@ import Navbar from "./controls/Navbar";
 
 function App() {
     return (
-      <div className="container-fluid border">
+      <div className="container">
           <Navbar/>
         </div>
     );

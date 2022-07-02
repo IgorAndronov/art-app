@@ -1,6 +1,12 @@
 function Modal(props) {
-    return (
+    let legendItems = <div></div>;
+    if(props.pictureProps && props.pictureProps.legend){
+        let legendSections = props.pictureProps.legend.split('\n');
+        legendItems = legendSections.map(section => <p>{section.replaceAll("\n", "")}</p>);
+    }
 
+
+    return (
         <div className="modal" id="pic_overview">
             <div className="modal-dialog modal-xl">
                 <div className="modal-content">
@@ -13,7 +19,7 @@ function Modal(props) {
                         <img className="card-img-top img-fluid" src={props.pictureProps.src} alt="Card image"/>
                         <br/>
                         <br/>
-                        <span style={{float: 'left'}}>{props.pictureProps.legend}</span>
+                        <span style={{float: 'left'}}>{legendItems}</span>
 
                     </div>
 
