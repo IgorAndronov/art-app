@@ -12,6 +12,7 @@ import pic11 from '../pic/in_love.jpg'
 import pic12 from '../pic/wild_strawberries.jpg'
 import pic13 from '../pic/night_roses.jpg'
 import pic14 from '../pic/lavender.jpg'
+import pic15 from '../pic/prayer-for-ukraine.jpg'
 
 import Card from "./Card";
 import './Galary.css';
@@ -27,7 +28,7 @@ function Gallery() {
     let pictureProps3 = new PictureProps(pic3, "Red Apple", "500$");
     let pictureProps4 = new PictureProps(pic4, "For You", "500$");
     let pictureProps5 = new PictureProps(pic5, "Wind", "500$");
-    let pictureProps6 = new PictureProps(pic6, "Pineapple pear ", "500$");
+    let pictureProps6 = new PictureProps(pic6, "Pineapple pear ", "Original SOLD. Prints A4 are open for pre-orders");
     let pictureProps7 = new PictureProps(pic7, "Must have", "500$");
     let pictureProps8 = new PictureProps(pic8, "Find Yourself", "500$");
     let pictureProps9 = new PictureProps(pic9, "Little angel", "500$");
@@ -36,9 +37,15 @@ function Gallery() {
     let pictureProps12 = new PictureProps(pic12, "Wild Strawberries", "500$");
     let pictureProps13 = new PictureProps(pic13, "Night Roses", "500$");
     let pictureProps14 = new PictureProps(pic14, "Lavender", "500$");
+    let pictureProps15 = new PictureProps(pic15, "Prayer For Ukraine (with AR)", "500$",
+        "Original Oil Painting, 28x35.6 cm with depth 1.5 cm.\n" +
+        "        Surface: High Quality Professional Oil Paint on gallery-grade, deep edge cotton canvas, with the painting wrapping around the sides.\n" +
+        "        Finish: Varnished. Dated on the back side. Edges painted and ready to be framed or just to hang without frame.\n" +
+        "To experience the AR (augmented reality) feature, view this painting or a photo of the painting through your phone using the free app Artivive.\n"+
+        "Available as <a href=https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/53403584273125941610429339004721020342321256115720612160993821845137836212225>NFT<a>");
 
     let pictures = [pictureProps1, pictureProps2, pictureProps3, pictureProps4, pictureProps5, pictureProps6, pictureProps12, pictureProps8,
-        pictureProps9, pictureProps10, pictureProps11, pictureProps7, pictureProps13, pictureProps14];
+        pictureProps9, pictureProps10, pictureProps11, pictureProps7, pictureProps13, pictureProps14, pictureProps15];
     let pictureItems1 = [];
     let pictureItems2 = [];
     let pictureItems3 = [];

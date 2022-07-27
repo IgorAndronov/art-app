@@ -1,8 +1,11 @@
+import formatHtml from "../utils/utils";
+
 function Modal(props) {
     let legendItems = <div></div>;
     if(props.pictureProps && props.pictureProps.legend){
         let legendSections = props.pictureProps.legend.split('\n');
-        legendItems = legendSections.map(section => <p>{section.replaceAll("\n", "")}</p>);
+        let key = 1;
+        legendItems = legendSections.map(section => <p key={key++}> {formatHtml(section) }</p>);
     }
 
 
