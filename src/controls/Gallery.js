@@ -28,7 +28,7 @@ function Gallery() {
     let pictureProps3 = new PictureProps(pic3, "Red Apple", "500$");
     let pictureProps4 = new PictureProps(pic4, "For You", "500$");
     let pictureProps5 = new PictureProps(pic5, "Wind", "500$");
-    let pictureProps6 = new PictureProps(pic6, "Pineapple pear ", "Original SOLD. Prints A4 are open for pre-orders");
+    let pictureProps6 = new PictureProps(pic6, "Pineapple pear ", "Prints A4 are open for pre-orders");
     let pictureProps7 = new PictureProps(pic7, "Must have", "500$");
     let pictureProps8 = new PictureProps(pic8, "Find Yourself", "500$");
     let pictureProps9 = new PictureProps(pic9, "Little angel", "500$");
