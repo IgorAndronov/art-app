@@ -1,6 +1,6 @@
 const initialState = {}
 
-export default function filtersReducer(state = initialState, action) {
+export default function navbarReducer(state = initialState, action) {
     switch (action.type) {
         case 'navbar/menuclicked': {
             return {
