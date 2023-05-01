@@ -33,10 +33,10 @@ function Gallery() {
     let pictureProps8 = new PictureProps(pic8, "Find Yourself", "500$");
     let pictureProps9 = new PictureProps(pic9, "Little angel", "500$");
     let pictureProps10 = new PictureProps(pic10, "Love Your Sun", "500$");
-    let pictureProps11 = new PictureProps(pic11, "In Love", "500$");
-    let pictureProps12 = new PictureProps(pic12, "Wild Strawberries", "500$");
-    let pictureProps13 = new PictureProps(pic13, "Night Roses", "500$");
-    let pictureProps14 = new PictureProps(pic14, "Lavender", "500$");
+    //let pictureProps11 = new PictureProps(pic11, "In Love", "500$");
+    //let pictureProps12 = new PictureProps(pic12, "Wild Strawberries", "500$");
+   // let pictureProps13 = new PictureProps(pic13, "Night Roses", "500$");
+  //  let pictureProps14 = new PictureProps(pic14, "Lavender", "500$");
     let pictureProps15 = new PictureProps(pic15, "Prayer For Ukraine (with AR)", "500$",
         "Original Oil Painting, 28x35.6 cm with depth 1.5 cm.\n" +
         "        Surface: High Quality Professional Oil Paint on gallery-grade, deep edge cotton canvas, with the painting wrapping around the sides.\n" +
@@ -44,8 +44,8 @@ function Gallery() {
         "To experience the AR (augmented reality) feature, view this painting or a photo of the painting through your phone using the free app Artivive.\n"+
         "Available as <a href=https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/53403584273125941610429339004721020342321256115720612160993821845137836212225>NFT<a>");
 
-    let pictures = [pictureProps1, pictureProps2, pictureProps3, pictureProps4, pictureProps5, pictureProps6, pictureProps12, pictureProps8,
-        pictureProps9, pictureProps10, pictureProps11, pictureProps7, pictureProps13, pictureProps14, pictureProps15];
+    let pictures = [pictureProps1, pictureProps2, pictureProps3, pictureProps4, pictureProps5, pictureProps6, pictureProps8,
+        pictureProps9, pictureProps10, pictureProps7, pictureProps15];
     let pictureItems1 = [];
     let pictureItems2 = [];
     let pictureItems3 = [];
