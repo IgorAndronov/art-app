@@ -13,6 +13,7 @@ import pic12 from '../pic/wild_strawberries.jpg'
 import pic13 from '../pic/night_roses.jpg'
 import pic14 from '../pic/lavender.jpg'
 import pic15 from '../pic/prayer-for-ukraine.jpg'
+import pic16 from '../pic/your_roots.jpg'
 
 import Card from "./Card";
 import './Galary.css';
@@ -44,8 +45,14 @@ function Gallery() {
         "To experience the AR (augmented reality) feature, view this painting or a photo of the painting through your phone using the free app Artivive.\n"+
         "Available as <a href=https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/53403584273125941610429339004721020342321256115720612160993821845137836212225>NFT<a>");
 
+    let pictureProps16 = new PictureProps(pic16, "Your Roots", "60x100 cm, 3000$",
+            "Original Oil Painting, 60x100 cm.\n" +
+            "        Surface: High Quality Professional Oil Paint on gallery-grade, deep edge cotton canvas, with the painting wrapping around the sides.\n" +
+            "        Finish: Varnished. Dated on the back side. Edges painted and ready to be framed or just to hang without frame.\n"+
+            "Your roots are your past, present and future. Take care of them, root them hard and respect them precisely so that your connection with the world becomes stronger and unbreakable, for sure, because you’ll know, you’ll feel you are REAL with a real story. Your connection is the faith in yourself that you are strong with strong roots. You already know that the one who wanted to change history by giving his whole life to spread lies about the past, present and future and he lost. Cherish your roots with LOVE, not with lie. Lina");
+
     let pictures = [pictureProps1, pictureProps2, pictureProps3, pictureProps4, pictureProps5, pictureProps6, pictureProps8,
-        pictureProps9, pictureProps10, pictureProps7, pictureProps15];
+        pictureProps9, pictureProps10, pictureProps7, pictureProps15, pictureProps16];
     let pictureItems1 = [];
     let pictureItems2 = [];
     let pictureItems3 = [];
