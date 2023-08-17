@@ -24,9 +24,9 @@ import {useState} from "react";
 function Gallery() {
     const [activePicture, setActivePicture] = useState(0);
 
-    let pictureProps1 = new PictureProps(pic1, "Beautiful dream", "500$");
+    let pictureProps1 = new PictureProps(pic1, "Beautiful dream", "Price on request");
     let pictureProps2 = new PictureProps(pic2, "Marshmallow roses", "Original SOLD. Prints A4 are open for pre-orders");
-    let pictureProps3 = new PictureProps(pic3, "Red Apple", "500$");
+    let pictureProps3 = new PictureProps(pic3, "Red Apple", "Price on request");
     let pictureProps4 = new PictureProps(pic4, "For You", "500$");
     let pictureProps5 = new PictureProps(pic5, "Wind", "500$");
     let pictureProps6 = new PictureProps(pic6, "Pineapple pear ", "Prints A4 are open for pre-orders");
@@ -38,7 +38,7 @@ function Gallery() {
     //let pictureProps12 = new PictureProps(pic12, "Wild Strawberries", "500$");
    // let pictureProps13 = new PictureProps(pic13, "Night Roses", "500$");
   //  let pictureProps14 = new PictureProps(pic14, "Lavender", "500$");
-    let pictureProps15 = new PictureProps(pic15, "Prayer For Ukraine (with AR)", "500$",
+    let pictureProps15 = new PictureProps(pic15, "Prayer For Ukraine (with AR)", "Price on request",
         "Original Oil Painting, 28x35.6 cm with depth 1.5 cm.\n" +
         "        Surface: High Quality Professional Oil Paint (plus tempera, pasta with glitters) on gallery-grade, deep edge cotton canvas, with the painting wrapping around the sides.\n" +
         "        Finish: Varnished. Dated on the back side. Edges painted and ready to be framed or just to hang without frame.\n" +
